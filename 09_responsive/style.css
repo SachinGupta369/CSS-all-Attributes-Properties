@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    text-align: center;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: beige;
+    color: red;
+}
+
+/* tablet */
+@media (max-width:768px) {
+
+    .box{
+        color: black;
+        margin-top: 2rem;
+        background-color: yellowgreen;
+    }
+}
+
+/* Large Mobile */
+@media (max-width: 425px){
+    .box{
+        margin-top: 5rem;
+        color: black;
+        background-color: cadetblue;
+    }
+}
+
+
+@media (max-width:320px){
+    .box{
+        margin-top: 10rem;
+        color: springgreen;
+        color: white;
+    }
+}
