@@ -5,8 +5,20 @@
 }
 
 body{
-    display: flex;
     height: 100vh;
+}
+
+.content{
+    display: flex;
     align-items: center;
     justify-content: center;
+
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 2rem 0;
 }
